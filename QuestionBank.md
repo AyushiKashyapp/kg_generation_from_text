@@ -8,13 +8,13 @@ REBEL (Relation Extraction By End-to-end Language generation) is an end-to-end m
 
 3. **What are the key steps in the knowledge graph extraction pipeline?**
 The key steps in the knowledge graph extraction pipeline are:
-1. **Loading the Relation Extraction REBEL model:** This involves initializing the pre-trained REBEL model and tokenizer.
-2. **Extracting a knowledge base from short text:** Using REBEL to extract relations from short text segments.
-3. **Extracting a knowledge base from long text:** Dividing long text into overlapping spans and extracting relations from each span.
-4. **Filtering and normalizing entities:** Using Wikipedia to validate and normalize entities to ensure consistency.
-5. **Extracting a knowledge base from a specific URL:** Parsing articles from URLs and extracting relations.
-6. **Extracting a knowledge base from multiple URLs:** Aggregating knowledge bases from multiple articles.
-7. **Visualizing knowledge bases:** Using pyvis to visualize the resulting knowledge graph.
+- **Loading the Relation Extraction REBEL model:** This involves initializing the pre-trained REBEL model and tokenizer.
+- **Extracting a knowledge base from short text:** Using REBEL to extract relations from short text segments.
+- **Extracting a knowledge base from long text:** Dividing long text into overlapping spans and extracting relations from each span.
+- **Filtering and normalizing entities:** Using Wikipedia to validate and normalize entities to ensure consistency.
+- **Extracting a knowledge base from a specific URL:** Parsing articles from URLs and extracting relations.
+- **Extracting a knowledge base from multiple URLs:** Aggregating knowledge bases from multiple articles.
+- **Visualizing knowledge bases:** Using pyvis to visualize the resulting knowledge graph.
 
 4. **How to handle the extraction of relations from short text?**
  To extract relations from short text, I first tokenize the input text and use the REBEL model to generate potential relations. The generated output is then parsed to identify relation triples, which include the head (subject), type (relation), and tail (object). These triples are stored in a knowledge base object.
