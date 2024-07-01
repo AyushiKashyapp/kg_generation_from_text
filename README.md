@@ -3,6 +3,8 @@ A project to extract triples and generate knowledge graphs for short text, long 
 
 A project to implement a pipeline for extracting a Knowledge Base from texts or online articles.
 
+Find the project question bank here [QuestionBank](https://github.com/AyushiKashyapp/kg_generation_from_text/blob/main/QuestionBank.md)
+
 Building a Knowledge Graph from text using following steps:
 
 1. Extract entities, Named Entity Recognition (NER), to represent the nodes of the graph.
